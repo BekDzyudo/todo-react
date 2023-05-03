@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.counter {
+  margin-top: 50px;
+  margin-left: 580px;
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+.counter .inkrement {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+.counter .dekrement {
+  border: none;
+  padding: 10px 24px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+.hisob {
+  color: orangered;
+  margin-left: 600px;
+  margin-top: 50px;
+}
+.hr {
+  margin: 50px 0px;
+}

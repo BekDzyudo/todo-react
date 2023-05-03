@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.todoApp {
+  width: 600px;
+  margin-left: 400px;
+  .title {
+    color: #807e7e;
+    margin-left: 200px;
+    margin-bottom: 20px;
+  }
+  .todoForm {
+    width: 100%;
+    .text {
+      width: 100%;
+      border: 2px solid green;
+      box-shadow: 5px 5px 10px #838383;
+      border-radius: 10px;
+      height: 60px;
+      padding: 10px 20px;
+      outline: none;
+      font-size: 20px;
+      margin-bottom: 50px;
+    }
+  }
+  .infoBlog {
+    list-style: none;
+    width: 500px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    .info {
+      border: 2px solid orange;
+      box-shadow: 4px 4px 10px #838383;
+      border-radius: 10px;
+      padding: 20px 30px;
+      font-size: 18px;
+      position: relative;
+      .exit {
+        color: red;
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        cursor: pointer;
+      }
+    }
+  }
+}
